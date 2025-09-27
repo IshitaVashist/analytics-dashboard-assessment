@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add some global styles for a nicer look */
+body {
+  @apply bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 antialiased;
+}
